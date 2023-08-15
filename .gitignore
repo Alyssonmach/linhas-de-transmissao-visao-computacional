@@ -160,11 +160,13 @@ cython_debug/
 #.idea/
 
 # Arquivo contendo o dataset do TTPLA compactado.
-/deteccao-e-segmentacao-torres/dataset-compactado/*
-!deteccao-e-segmentacao-torres/dataset-compactado/README.md
-!deteccao-e-segmentacao-torres/dataset-compactado/descompactar.py
+/deteccao-e-segmentacao-torres/datasets-compactado/*
+!deteccao-e-segmentacao-torres/datasets-compactado/README.md
+!deteccao-e-segmentacao-torres/datasets-compactado/descompactar.py
 
 # Arquivo contendo as imagens e rótulos do dataset TTPLA descompactado.
 /deteccao-e-segmentacao-torres/TTPLA-dataset/*
 
+# Arquivo contendo as imagens e rótulos do dataset STN-PLAD descompactado.
+/deteccao-e-segmentacao-torres/STN-PLAD/*
 
