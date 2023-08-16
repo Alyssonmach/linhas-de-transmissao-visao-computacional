@@ -166,7 +166,9 @@ cython_debug/
 
 # Arquivo contendo as imagens e rótulos do dataset TTPLA descompactado.
 /deteccao-e-segmentacao-torres/TTPLA-dataset/*
+!deteccao-e-segmentacao-torres/TTPLA-dataset/README.md
 
 # Arquivo contendo as imagens e rótulos do dataset STN-PLAD descompactado.
 /deteccao-e-segmentacao-torres/STN-PLAD-dataset/*
+!deteccao-e-segmentacao-torres/STN-PLAD-dataset/README.md
 
