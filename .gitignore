@@ -168,5 +168,5 @@ cython_debug/
 /deteccao-e-segmentacao-torres/TTPLA-dataset/*
 
 # Arquivo contendo as imagens e rótulos do dataset STN-PLAD descompactado.
-/deteccao-e-segmentacao-torres/STN-PLAD/*
+/deteccao-e-segmentacao-torres/STN-PLAD-dataset/*
 
