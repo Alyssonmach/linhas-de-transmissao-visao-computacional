@@ -9,6 +9,8 @@
 * [COT-SAT](https://universe.roboflow.com/cao-the-ktpc-udrjd/cot-sat-txqdh).
 * [DT-COT-SAT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct).
 * [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110).
+* [CSAT-CT](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct).
+* [BASE-DETECTION](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x).
 
 ### Script de Descompactação dos Conjuntos de Imagens
 ***

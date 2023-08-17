@@ -19,9 +19,11 @@ Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento 
     Daychongset110 é um conjunto de imagens originado de uma coleção de capturas feitas por drones, focalizando os cabos para-raios presentes em linhas de alta tensão. As marcações contidas nesse conjunto de imagens consistem em caixas delimitadoras que cercam os cabos para-raios. O traço distintivo desse conjunto de imagens em relação aos demais é que as fotografias foram tiradas em proximidade das torres, com pontos de observação que variam entre uma perspectiva ascendente e descendente da visualização dessas linhas.
 
 * [csat_ct](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct) ```208 imagens de torres de transmissão```
-    
+    CSAT-CT é um conjunto de imagens originado a partir de uma coleção de capturas aéreas feitas por drones, com foco nas torres de transmissão de alta tensão. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras que englobam as diversas torres. Esse conjunto de dados guarda semelhanças significativas com o STN-PLAD e o TTPLA, com pontos de observação frequentemente capturados ao redor ou acima das torres.
 
 * [Base Detection](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x) ```58 imagens de torres de transmissão```
+    BASE-DETECTION é um conjunto de imagens originado a partir de uma coleção de capturas feitas das bases de torres de transmissão de alta tensão. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras que englobam árvores, solo erodido ou itens inflamáveis que estão localizados na base de torres de transmissão. 
+
 * [110 NHANDIEN COTSAT](https://universe.roboflow.com/tthpc/110_nhandien_cotsat) ```106 imagens de torres de transmissão```
 
 * [Tower Joint](https://universe.roboflow.com/yuyang-li/tower_jointv1)
