@@ -172,6 +172,10 @@ cython_debug/
 /deteccao-e-segmentacao-torres/STN-PLAD-dataset/*
 !deteccao-e-segmentacao-torres/STN-PLAD-dataset/README.md
 
+# Arquivo contendo as imagens e rótulos do dataset COT-SAT descompactado.
+/deteccao-e-segmentacao-torres/COT-SAT-dataset/*
+!deteccao-e-segmentacao-torres/COT-SAT-dataset/README.md
+
 # Arquivo contendo as imagens e rótulos que contém apenas torres
 /deteccao-e-segmentacao-torres/imagens-com-torres/TTPLA-dataset/*
 !deteccao-e-segmentacao-torres/imagens-com-torres/TTPLA-dataset/README.md

@@ -3,8 +3,11 @@
 
 Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento do projeto.
 
-* [TTPLA Dataset](https://github.com/R3ab/ttpla_dataset)
-* [STN-PLAD Dataset](https://github.com/andreluizbvs/PLAD)
+* [TTPLA Dataset](https://github.com/R3ab/ttpla_dataset): ```279 imagens de torres de transmissão```
+    TTPLA é um conjunto de imagens de uma coleção de imagens aéreas de Torres de Transmissão (TTs) e Linhas de Energia (PLs). As marcações desse conjunto de imagens correspondem a segmentação por instância das torres, linhas e componentes de transmissão elétrica.
+
+* [STN-PLAD Dataset](https://github.com/andreluizbvs/PLAD): ```131 imagens de torres de transmissão```
+    STN-PLAD é um conjunto de imagens de alta resolução e do mundo real de vários componentes de linha de energia de alta tensão. As marcações desse conjunto de imagens correspondem a caixas delimitadoras de torres e componentes das linhas de transmissão. As imagens variam em tamanho (resolução), orientação, iluminação, angulação e fundo.
 
 * [COT SAT](https://universe.roboflow.com/cao-the-ktpc-udrjd/cot-sat-txqdh)
 * [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct)
