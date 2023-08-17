@@ -15,7 +15,7 @@ Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento 
 * [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct): ```50 imagens de torres de transmissão```
     DT-COT-SAT é um conjunto de imagens que deriva de uma coleção de capturas variadas obtidas pela internet, todas retratando torres de transmissão de alta tensão. Este conjunto é uma versão similar ao anterior, ou seja, o COT-SAT. As anotações contidas nesse conjunto de imagens abrangem a segmentação por instâncias das torres de transmissão. Semelhante ao COT-SAT, as imagens exibem uma resolução mais modesta e uma quantidade reduzida em comparação com outros conjuntos de imagens disponíveis.
     
-* [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110): ```62 imagens de torres de transmissão```
+* [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110): ```61 imagens de torres de transmissão```
     Daychongset110 é um conjunto de imagens originado de uma coleção de capturas feitas por drones, focalizando os cabos para-raios presentes em linhas de alta tensão. As marcações contidas nesse conjunto de imagens consistem em caixas delimitadoras que cercam os cabos para-raios. O traço distintivo desse conjunto de imagens em relação aos demais é que as fotografias foram tiradas em proximidade das torres, com pontos de observação que variam entre uma perspectiva ascendente e descendente da visualização dessas linhas.
 
 * [csat_ct](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct) ```208 imagens de torres de transmissão```
