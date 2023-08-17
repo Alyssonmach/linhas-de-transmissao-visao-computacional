@@ -4,24 +4,30 @@
 Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento do projeto.
 
 * [TTPLA Dataset](https://github.com/R3ab/ttpla_dataset): ```279 imagens de torres de transmissão```
-    TTPLA é um conjunto de imagens de uma coleção de capturas aéreas de Torres de Transmissão (TTs) e Linhas de Energia (PLs). As marcações desse conjunto de imagens correspondem a segmentação por instância das torres, linhas e componentes de transmissão elétrica.
+    TTPLA é um conjunto de imagens que compreende uma coleção de capturas aéreas de Torres de Transmissão (TTs) e Linhas de Energia (PLs). As marcações presentes nesse conjunto de imagens correspondem à segmentação por instância das torres, linhas e componentes do sistema de transmissão elétrica.
 
 * [STN-PLAD Dataset](https://github.com/andreluizbvs/PLAD): ```131 imagens de torres de transmissão```
-    STN-PLAD é um conjunto de imagens de alta resolução e do mundo real de vários componentes de linha de energia de alta tensão. As marcações desse conjunto de imagens correspondem a caixas delimitadoras de torres e componentes das linhas de transmissão. As imagens variam em tamanho (resolução), orientação, iluminação, angulação e fundo.
+    STN-PLAD é um conjunto de imagens de alta resolução do mundo real, que abrange diversos componentes de linhas de energia de alta tensão. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras que englobam torres e componentes das linhas de transmissão. As imagens apresentam variações em termos de tamanho (resolução), orientação, iluminação, ângulo e plano de fundo.
 
 * [COT SAT](https://universe.roboflow.com/cao-the-ktpc-udrjd/cot-sat-txqdh): ```83 imagens de torres de transmissão```
-    COT-SAT é um conjunto de imagens de uma coleção de capturas de diversas imagens coletadas pela internet de torres de transmissão de alta tensão. As marcações desse conjunto de imagens correspondem a segmentação por instância de torres de transmissão. As imagens possuem uma resolução mais simples, assim como uma quantidade menor de imagens quando comparado com os outros conjuntos de imagens.
+    COT-SAT é um conjunto de imagens composto por uma variedade de capturas obtidas da internet, retratando torres de transmissão de alta tensão. As anotações presentes nesse conjunto de imagens envolvem a segmentação por instância das torres de transmissão. As imagens apresentam uma resolução mais modesta e uma quantidade reduzida quando comparadas com outros conjuntos disponíveis.
     
-* [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct) ```50 imagens de torres de transmissão```
-    DT-COT-SAT é um conjunto de imagens de uma coleção de capturas de diversar imagens coletadas pela internet de torres de transmissão de alta tensão, sendo uma versão semelhante ao conjunto de imagens anterior COT-SAT. As marcações desse conjunto de imagens correspondem a segmentação por instânicas de torres de transmissão. As imagens, assim como o COT-SAT, possuem uma resolução mais simples, contando uma uma quantidade menor de imagens quando comparado com os demais conjuntos de imagens.
+* [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct): ```50 imagens de torres de transmissão```
+    DT-COT-SAT é um conjunto de imagens que deriva de uma coleção de capturas variadas obtidas pela internet, todas retratando torres de transmissão de alta tensão. Este conjunto é uma versão similar ao anterior, ou seja, o COT-SAT. As anotações contidas nesse conjunto de imagens abrangem a segmentação por instâncias das torres de transmissão. Semelhante ao COT-SAT, as imagens exibem uma resolução mais modesta e uma quantidade reduzida em comparação com outros conjuntos de imagens disponíveis.
     
-* [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110) ```62 imagens de torres de transmissão```
-    Daychongset110 é um conjunto de imagens de uma coleção de capturas de imagens de drones de cabos para-raio em linhas de alta tensão. As marcação desse conjunto de imagens correspondem a caixas delimitadoras dos cabos. A principal diferença desse conjunto de imagens dos demais é que as imagens foram capturadas mais próximas das torres, e com pontos de observação ascendente ou descendente de visualização dessas linhas.
+* [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110): ```62 imagens de torres de transmissão```
+    Daychongset110 é um conjunto de imagens originado de uma coleção de capturas feitas por drones, focalizando os cabos para-raios presentes em linhas de alta tensão. As marcações contidas nesse conjunto de imagens consistem em caixas delimitadoras que cercam os cabos para-raios. O traço distintivo desse conjunto de imagens em relação aos demais é que as fotografias foram tiradas em proximidade das torres, com pontos de observação que variam entre uma perspectiva ascendente e descendente da visualização dessas linhas.
 
 * [csat_ct](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct) ```208 imagens de torres de transmissão```
+    
 
-* [Base Detection](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x)
-* [110 NHANDIEN COTSAT](https://universe.roboflow.com/tthpc/110_nhandien_cotsat)
+* [Base Detection](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x) ```58 imagens de torres de transmissão```
+* [110 NHANDIEN COTSAT](https://universe.roboflow.com/tthpc/110_nhandien_cotsat) ```106 imagens de torres de transmissão```
+
 * [Tower Joint](https://universe.roboflow.com/yuyang-li/tower_jointv1)
 * [Transmission System](https://universe.roboflow.com/power-tower/transimission-system)
-* [Mais conjuntos de imagens do roboflow](https://universe.roboflow.com/search?q=power%2520line%2520tower) 
+
+### Pesquisar mais Conjuntos de Imagens
+***
+
+* [Aba de Pesquisa do RoboFlow](https://universe.roboflow.com/search?q=power%2520line%2520tower) 

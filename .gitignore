@@ -180,6 +180,10 @@ cython_debug/
 /deteccao-e-segmentacao-torres/datasets-descompactados/DT-COT-SAT-dataset/*
 !deteccao-e-segmentacao-torres/datasets-descompactados/DT-COT-SAT-dataset/README.md
 
+# Arquivo contendo as imagens e rótulos do dataset DT-COT-SAT descompactado.
+/deteccao-e-segmentacao-torres/datasets-descompactados/Daychongset110-dataset/*
+!deteccao-e-segmentacao-torres/datasets-descompactados/Daychongset110-dataset/README.md
+
 # Arquivo contendo as imagens e rótulos que contém apenas torres
 /deteccao-e-segmentacao-torres/imagens-com-torres/TTPLA-dataset/*
 !deteccao-e-segmentacao-torres/imagens-com-torres/TTPLA-dataset/README.md
