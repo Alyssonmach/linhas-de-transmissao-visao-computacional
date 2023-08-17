@@ -12,7 +12,9 @@ Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento 
 * [COT SAT](https://universe.roboflow.com/cao-the-ktpc-udrjd/cot-sat-txqdh): ```83 imagens de torres de transmissão```
     COT-SAT é um conjunto de imagens de uma coleção de capturas de diversas imagens coletadas pela internet de torres de transmissão de alta tensão. As marcações desse conjunto de imagens correspondem a segmentação por instância de torres de transmissão. As imagens possuem uma resolução mais simples, assim como uma quantidade menor de imagens quando comparado com os outros conjuntos de imagens.
     
-* [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct)
+* [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct) ```50 imagens de torres de transmissão```
+    DT-COT-SAT é um conjunto de imagens de uma coleção de capturas de diversar imagens coletadas pela internet de torres de transmissão, sendo uma versão semelhante ao conjunto de imagens anterior COT-SAT. As marcações desse conjunto de imagens correspondem a segmentação por instânicas de torres de transmissão. As imagens, assim como o COT-SAT, possuem uma resolução mais simples, contando uma uma quantidade menor de imagens quando comparado com os demais conjuntos de imagens.
+    
 * [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110)
 * [csat_ct](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct)
 * [Base Detection](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x)
