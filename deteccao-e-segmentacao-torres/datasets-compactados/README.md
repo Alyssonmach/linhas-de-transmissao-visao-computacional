@@ -11,6 +11,7 @@
 * [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110).
 * [CSAT-CT](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct).
 * [BASE-DETECTION](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x).
+* [110 NHANDIEN COTSAT](https://universe.roboflow.com/tthpc/110_nhandien_cotsat)
 
 ### Script de Descompactação dos Conjuntos de Imagens
 ***
