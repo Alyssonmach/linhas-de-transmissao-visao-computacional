@@ -10,7 +10,7 @@ Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento 
     STN-PLAD é um conjunto de imagens de alta resolução e do mundo real de vários componentes de linha de energia de alta tensão. As marcações desse conjunto de imagens correspondem a caixas delimitadoras de torres e componentes das linhas de transmissão. As imagens variam em tamanho (resolução), orientação, iluminação, angulação e fundo.
 
 * [COT SAT](https://universe.roboflow.com/cao-the-ktpc-udrjd/cot-sat-txqdh): ```83 imagens de torres de transmissão```
-    COT-SAT é um conjunto de imagens de uma coleção de capturas de diversas imagens coletadas pela internet de torres de transmissão de alta tensão. As marcações desse conjunto de imagens correspondem a caixas delimitadoras  de torres de transmissão. As imagens possuem uma resolução mais simples, assim como uma quantidade menor de imagens quando comparado com os outros conjuntos de imagens.
+    COT-SAT é um conjunto de imagens de uma coleção de capturas de diversas imagens coletadas pela internet de torres de transmissão de alta tensão. As marcações desse conjunto de imagens correspondem a segmentação por instância de torres de transmissão. As imagens possuem uma resolução mais simples, assim como uma quantidade menor de imagens quando comparado com os outros conjuntos de imagens.
     
 * [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct)
 * [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110)
