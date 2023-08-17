@@ -13,10 +13,13 @@ Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento 
     COT-SAT é um conjunto de imagens de uma coleção de capturas de diversas imagens coletadas pela internet de torres de transmissão de alta tensão. As marcações desse conjunto de imagens correspondem a segmentação por instância de torres de transmissão. As imagens possuem uma resolução mais simples, assim como uma quantidade menor de imagens quando comparado com os outros conjuntos de imagens.
     
 * [DT COT SAT CT](https://universe.roboflow.com/bdpc-ai-gd2/dt-cot-sat-ct) ```50 imagens de torres de transmissão```
-    DT-COT-SAT é um conjunto de imagens de uma coleção de capturas de diversar imagens coletadas pela internet de torres de transmissão, sendo uma versão semelhante ao conjunto de imagens anterior COT-SAT. As marcações desse conjunto de imagens correspondem a segmentação por instânicas de torres de transmissão. As imagens, assim como o COT-SAT, possuem uma resolução mais simples, contando uma uma quantidade menor de imagens quando comparado com os demais conjuntos de imagens.
+    DT-COT-SAT é um conjunto de imagens de uma coleção de capturas de diversar imagens coletadas pela internet de torres de transmissão de alta tensão, sendo uma versão semelhante ao conjunto de imagens anterior COT-SAT. As marcações desse conjunto de imagens correspondem a segmentação por instânicas de torres de transmissão. As imagens, assim como o COT-SAT, possuem uma resolução mais simples, contando uma uma quantidade menor de imagens quando comparado com os demais conjuntos de imagens.
     
-* [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110)
-* [csat_ct](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct)
+* [Daychongset110](https://universe.roboflow.com/khpcdoituonggd2/daychongset110) ```62 imagens de torres de transmissão```
+    Daychongset110 é um conjunto de imagens de uma coleção de capturas de imagens de drones de cabos para-raio em linhas de alta tensão. As marcação desse conjunto de imagens correspondem a caixas delimitadoras dos cabos. A principal diferença desse conjunto de imagens dos demais é que as imagens foram capturadas mais próximas das torres, e com pontos de observação ascendente ou descendente de visualização dessas linhas.
+
+* [csat_ct](https://universe.roboflow.com/qbpcluoi110gd1/csat_ct) ```208 imagens de torres de transmissão```
+
 * [Base Detection](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x)
 * [110 NHANDIEN COTSAT](https://universe.roboflow.com/tthpc/110_nhandien_cotsat)
 * [Tower Joint](https://universe.roboflow.com/yuyang-li/tower_jointv1)
