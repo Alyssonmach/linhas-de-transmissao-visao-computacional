@@ -196,6 +196,11 @@ cython_debug/
 /deteccao-e-segmentacao-torres/datasets-descompactados/110-NHANDIEN-COTSAT-dataset/*
 !deteccao-e-segmentacao-torres/datasets-descompactados/110-NHANDIEN-COTSAT-dataset/README.md
 
+# Arquivo contendo as imagens e rótulos do dataset TOWER-JOINT descompactado.
+/deteccao-e-segmentacao-torres/datasets-descompactados/TOWER-JOINT-dataset/*
+!deteccao-e-segmentacao-torres/datasets-descompactados/TOWER-JOINT-dataset/README.md
+
+
 # Arquivo contendo as imagens e rótulos que contém apenas torres
 /deteccao-e-segmentacao-torres/imagens-com-torres/TTPLA-dataset/*
 !deteccao-e-segmentacao-torres/imagens-com-torres/TTPLA-dataset/README.md
