@@ -22,12 +22,14 @@ Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento 
     CSAT CT é um conjunto de imagens originado a partir de uma coleção de capturas aéreas feitas por drones, com foco nas torres de transmissão de alta tensão. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras que englobam as diversas torres. Esse conjunto de dados guarda semelhanças significativas com o STN PLAD e o TTPLA, com pontos de observação frequentemente capturados ao redor ou acima das torres.
 
 * [Base Detection](https://universe.roboflow.com/shandong-university-zvicd/base-detection-zyh6x) ```58 imagens de torres de transmissão```
-    BASE DETECTION é um conjunto de imagens originado a partir de uma coleção de capturas feitas das bases de torres de transmissão de alta tensão. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras que englobam árvores, solo erodido ou itens inflamáveis que estão localizados na base de torres de transmissão. 
+    BASE DETECTION é um conjunto de imagens originado a partir de uma coleção de capturas feitas das bases de torres de transmissão de alta tensão. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras que englobam árvores, solo erodido ou itens inflamáveis que estão localizados na base de torres de transmissão. Esse conjunto de imagens é util por conter imagens que capturam mais a região da base das torres de transmissão, contribuindo para uma maior variabilidade dos dados.
 
 * [110 NHANDIEN COTSAT](https://universe.roboflow.com/tthpc/110_nhandien_cotsat) ```106 imagens de torres de transmissão```
     110 NHANDIEN COTSAT é um conjunto de imagens originado a partir de uma coleção de capturas aéreas feitas por drones, com foco nas torres de transmissão de alta tensão. As marcações presentes nesse conjunto de imagens consistem em segmentação por instância que englobam as diversas torres. Esse conjunto de dados guarda semelhanças significativas com o STN-PLAD e o TTPLA, com pontos de observação frequentemente capturados ao redor ou acima das torres.
 
-* [Tower Joint](https://universe.roboflow.com/yuyang-li/tower_jointv1)
+* [Tower Joint](https://universe.roboflow.com/yuyang-li/tower_jointv1) ```1008 imagens de torres de transmissão```
+    TOWER JOINT é um conjunto de imagens originado a partir de uma coleção de capturas aéreas feitas por drones, com foco em detectar juntas nas treliças das torres de transmissão e lados que ligam essas juntas na verticial. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras dos elementos citados que ficam nos cruzamentos das treliças das torres. Esse conjunto de imagens é útil por conter imagens que capturam regiões próximas das torre de transmissão, contribuindo para uma maior variabilidade dos dados.
+    
 * [Transmission System](https://universe.roboflow.com/power-tower/transimission-system)
 
 ### Pesquisar mais Conjuntos de Imagens
