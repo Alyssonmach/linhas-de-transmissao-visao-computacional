@@ -209,3 +209,7 @@ cython_debug/
 !deteccao-e-segmentacao-torres/imagens-com-torres/TTPLA-dataset/README.md
 /deteccao-e-segmentacao-torres/imagens-com-torres/STN-PLAD-dataset/*
 !deteccao-e-segmentacao-torres/imagens-com-torres/STN-PLAD-dataset/README.md
+
+# Arquivo contendo as imagens e rótulos do dataset TRANSMISSION-SYSTEM descompactado.
+/deteccao-e-segmentacao-torres/yolov8-deteccao/modelos-pretreinados-segmentacao/*
+!deteccao-e-segmentacao-torres/yolov8-deteccao/modelos-pretreinados-segmentacao/README.md
