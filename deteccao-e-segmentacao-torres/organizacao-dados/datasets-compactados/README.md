@@ -19,4 +19,3 @@
 ***
 
 * Execute o script ```descompactar.py``` para descompactar o arquivo ```.zip``` com as imagens originais e rótulos de ambos conjuntos de imagens.
-* A partir da pasta que contém as imagens e os arquivos de dados com os rótulos descompactados, renomeie-os para ```TTPLA-dataset```, ```STN-PLAD``` e ```COT-SAT```, respectivamente.
