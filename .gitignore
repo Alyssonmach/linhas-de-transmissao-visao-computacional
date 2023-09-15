@@ -165,19 +165,19 @@ cython_debug/
 !deteccao-segmentacao-torres/organizacao-dados/datasets-compactados/descompactar.py
 
 # arquivo contendo o conjunto de teste com imagens e vídeos do projeto
-/deteccao-segmentacao-torres/yolov8-deteccao/conjunto-teste/*
-!deteccao-segmentacao-torres/yolov8-deteccao/conjunto-teste/README.md
+/deteccao-segmentacao-torres/yolov8-torres/conjunto-teste/*
+!deteccao-segmentacao-torres/yolov8-torres/conjunto-teste/README.md
 
 # arquivo contendo os diversos cenários de treinamento para detecção das torres
-/deteccao-segmentacao-torres/yolov8-deteccao/cenario1/*
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario1/cenario1.ipynb
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario1/cenario1-inferencias.ipynb
-/deteccao-segmentacao-torres/yolov8-deteccao/cenario2/*
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario2/cenario2.ipynb
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario2/cenario2-inferencias.ipynb
-/deteccao-segmentacao-torres/yolov8-deteccao/cenario3/*
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario3/cenario3.ipynb
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario3/cenario3-inferencias.ipynb
-/deteccao-segmentacao-torres/yolov8-deteccao/cenario4/*
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario4/cenario4.ipynb
-!deteccao-segmentacao-torres/yolov8-deteccao/cenario4/cenario4-inferencias.ipynb
+/deteccao-segmentacao-torres/yolov8-torres/cenario1/*
+!deteccao-segmentacao-torres/yolov8-torres/cenario1/cenario1.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario1/cenario1-inferencias.ipynb
+/deteccao-segmentacao-torres/yolov8-torres/cenario2/*
+!deteccao-segmentacao-torres/yolov8-torres/cenario2/cenario2.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario2/cenario2-inferencias.ipynb
+/deteccao-segmentacao-torres/yolov8-torres/cenario3/*
+!deteccao-segmentacao-torres/yolov8-torres/cenario3/cenario3.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario3/cenario3-inferencias.ipynb
+/deteccao-segmentacao-torres/yolov8-torres/cenario4/*
+!deteccao-segmentacao-torres/yolov8-torres/cenario4/cenario4.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario4/cenario4-inferencias.ipynb
