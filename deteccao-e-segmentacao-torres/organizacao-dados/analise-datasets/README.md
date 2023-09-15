@@ -32,8 +32,3 @@ Conjuntos de imagens passíveis de serem utilizados ao longo do desenvolvimento 
     
 * [Transmission System](https://universe.roboflow.com/power-tower/transimission-system): ```913 imagens de torres de transmissão```
     "Transmission System" é um conjunto de imagens originado a partir de simulações digitais e manipulações de cenários de torres de transmissão em laboratórios. As marcações presentes nesse conjunto de imagens consistem em caixas delimitadoras das torres de transmissão. Este conjunto de imagens é valioso por conter imagens simuladas digitalmente e em cenários de laboratório, o que contribui para o aumento da quantidade de dados por meio de imagens artificiais.
-
-### Pesquisar mais Conjuntos de Imagens
-***
-
-* [Aba de Pesquisa do RoboFlow](https://universe.roboflow.com/search?q=power%2520line%2520tower) 
