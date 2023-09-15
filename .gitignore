@@ -164,15 +164,20 @@ cython_debug/
 !deteccao-e-segmentacao-torres/organizacao-dados/datasets-compactados/README.md
 !deteccao-e-segmentacao-torres/organizacao-dados/datasets-compactados/descompactar.py
 
-# Arquivo contendo as imagens e rótulos do dataset TRANSMISSION-SYSTEM descompactado.
-/deteccao-e-segmentacao-torres/yolov8-deteccao/modelos-pretreinados-segmentacao/*
-!deteccao-e-segmentacao-torres/yolov8-deteccao/modelos-pretreinados-segmentacao/README.md
+# arquivo contendo o conjunto de teste com imagens e vídeos do projeto
+/deteccao-e-segmentacao-torres/yolov8-deteccao/conjunto-teste/*
+!deteccao-e-segmentacao-torres/yolov8-deteccao/conjunto-teste/README.md
 
-/deteccao-e-segmentacao-torres/videos-torres-teste/*
-!deteccao-e-segmentacao-torres/videos-torres-teste/README.md
-
-/deteccao-e-segmentacao-torres/yolov8-deteccao/cenario1/resultados-videos-torres/*
-!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario1/resultados-videos-torres/README.md
-
-/deteccao-e-segmentacao-torres/yolov8-deteccao/cenario1/pesos-treinamento/*
-!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario1/pesos-treinamento/README.md
+# arquivo contendo os diversos cenários de treinamento para detecção das torres
+/deteccao-e-segmentacao-torres/yolov8-deteccao/cenario1/*
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario1/cenario1.ipynb
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario1/cenario1-inferencias.ipynb
+/deteccao-e-segmentacao-torres/yolov8-deteccao/cenario2/*
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario2/cenario2.ipynb
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario2/cenario2-inferencias.ipynb
+/deteccao-e-segmentacao-torres/yolov8-deteccao/cenario3/*
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario3/cenario3.ipynb
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario3/cenario3-inferencias.ipynb
+/deteccao-e-segmentacao-torres/yolov8-deteccao/cenario4/*
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario4/cenario4.ipynb
+!deteccao-e-segmentacao-torres/yolov8-deteccao/cenario4/cenario4-inferencias.ipynb
