@@ -172,12 +172,16 @@ cython_debug/
 /deteccao-segmentacao-torres/yolov8-torres/cenario1/*
 !deteccao-segmentacao-torres/yolov8-torres/cenario1/cenario1.ipynb
 !deteccao-segmentacao-torres/yolov8-torres/cenario1/cenario1-inferencias.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario1/README.md
 /deteccao-segmentacao-torres/yolov8-torres/cenario2/*
 !deteccao-segmentacao-torres/yolov8-torres/cenario2/cenario2.ipynb
 !deteccao-segmentacao-torres/yolov8-torres/cenario2/cenario2-inferencias.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario2/README.md
 /deteccao-segmentacao-torres/yolov8-torres/cenario3/*
 !deteccao-segmentacao-torres/yolov8-torres/cenario3/cenario3.ipynb
 !deteccao-segmentacao-torres/yolov8-torres/cenario3/cenario3-inferencias.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario3/README.md
 /deteccao-segmentacao-torres/yolov8-torres/cenario4/*
 !deteccao-segmentacao-torres/yolov8-torres/cenario4/cenario4.ipynb
 !deteccao-segmentacao-torres/yolov8-torres/cenario4/cenario4-inferencias.ipynb
+!deteccao-segmentacao-torres/yolov8-torres/cenario4/README.md
