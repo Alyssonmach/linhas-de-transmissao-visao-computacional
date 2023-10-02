@@ -190,4 +190,6 @@ cython_debug/
 /deteccao-segmentacao-torres/yolov8-torres/rastreamento/simulacao-dataset/*
 !deteccao-segmentacao-torres/yolov8-torres/rastreamento/simulacao-dataset/conversao-videos.ipynb
 !deteccao-segmentacao-torres/yolov8-torres/rastreamento/simulacao-dataset/README.md
+
+# arquivo contendo o projeto de rastreamento do Deep-SORT
 !deteccao-segmentacao-torres/yolov8-torres/rastreamento/deep-sort/YOLOv8-DeepSORT-Object-Tracking/*
