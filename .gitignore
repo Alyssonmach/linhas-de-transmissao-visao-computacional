@@ -190,3 +190,4 @@ cython_debug/
 /deteccao-segmentacao-torres/yolov8-torres/rastreamento/simulacao-dataset/*
 !deteccao-segmentacao-torres/yolov8-torres/rastreamento/simulacao-dataset/conversao-videos.ipynb
 !deteccao-segmentacao-torres/yolov8-torres/rastreamento/simulacao-dataset/README.md
+!deteccao-segmentacao-torres/yolov8-torres/rastreamento/deep-sort/YOLOv8-DeepSORT-Object-Tracking/*
