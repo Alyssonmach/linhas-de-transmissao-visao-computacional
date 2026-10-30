@@ -1,7 +1,10 @@
-# Detecção e Segmentação das Torres Utilizando a YOLOv8
+# Experimentos com YOLOv8
 
-Nesse diretório está armazenado os arquivos de treinamento e testagem das arquiteturas YOLOv8 para resolver o problema de detecção e segmentação das torres de transmissão. A análise feita para cada um dos cenários está delimitada na documentação do projeto.
+Este diretório reúne os notebooks de treinamento, as avaliações por cenário e o script de inferência para imagens e vídeos.
 
-O arquivo ```frame-analise.ipynb``` foi um teste desenvolvido para analisar de forma comparativa cada um dos modelos treinados, na qual foi comparado diversos frames dos vídeos de teste para verificação do desempenho dos modelos.
+- [`deteccao-segmentacao/`](deteccao-segmentacao/): quatro configurações experimentais e seus registros.
+- [`rastreamento/`](rastreamento/): exploração de algoritmos para acompanhar detecções em vídeo.
+- [`conjunto-teste/`](conjunto-teste/): descrição das amostras locais usadas na inspeção dos resultados.
+- [`inferencia.py`](inferencia.py): configuração de modelo, entrada, confiança, dispositivo e rastreador.
 
-O arquivo ```inferencia.py``` contém um código útil para realizar inferências com os modelos treinados. Nele, é possível configurar o tipo de dispositivo ou mídia de entrada para inferência, e visualizar em tempo real a análise feita pelo algoritmo.
+O script de inferência espera os pesos e os arquivos de entrada em caminhos configurados no próprio código. Esses artefatos não são incluídos necessariamente no repositório.

@@ -1,10 +1,9 @@
-# Algoritmos para o Rastreamento de Torres
-***
+# Rastreamento em vídeo
 
-Este diretório contém todos os algoritmos necessários para executar o rastreamento utilizando diversos tipos de algoritmos. Nessa etapa do projeto, três algoritmos em específico foram explorados, sendo eles:
+Esta área explora o acompanhamento de estruturas detectadas ao longo de sequências de vídeo. Os métodos registrados incluem:
 
-* ```BoT-SORT```
-* ```Byte-Track```
-* ```Deep-SORT```
+- BoT-SORT
+- ByteTrack
+- DeepSORT
 
-Cenários de simulação foram criados para realizar testes utilizando esses algoritmos.
+Os notebooks e os dados de simulação associados estão organizados nos subdiretórios. Caminhos de modelos, vídeos e dependências podem exigir configuração local antes da execução.

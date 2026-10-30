@@ -1,6 +1,5 @@
-# Cenário de Desenvolvimento 1
-***
+# Cenário 1 — diversidade de estruturas
 
-O primeiro conjunto de imagens inclue apenas imagens de torres de diversos tipos, com foco exclusivo na detecção das torres (esse tipo de detecção será explorada nos demais conjuntos de imagens). Neste conjunto, foram aplicadas transformações geométricas mais suaves como parte do aumento de dados, e as imagens foram normalizadas para 960x960 pixels.
+Este experimento usa o projeto `towers-instance-segmentation-v1`, versão 4, com imagens de diferentes tipos de torre. O conjunto foi normalizado para 960 × 960 pixels e recebeu transformações geométricas mais leves durante a preparação no Roboflow. No treinamento, o notebook define `augment=False`, usa o modelo YOLOv8x de segmentação e configura até 100 épocas.
 
-No primeiro cenário, após aumentar a quantidade de imagens com torres e focar exclusivamente na detecção de torres, observamos resultados mais promissores em comparação com o primeiro cenário. Diminuímos a taxa de falsos positivos e falsos negativos, mas ainda enfrentamos desafios devido à presença de outros tipos de torres não correspondentes ao padrão brasileiro no conjunto de imagens.
+O registro experimental menciona redução de falsos positivos e falsos negativos, mas também confusões com estruturas que não correspondem ao padrão de interesse. Consulte o notebook para ver a configuração completa e as inferências associadas.

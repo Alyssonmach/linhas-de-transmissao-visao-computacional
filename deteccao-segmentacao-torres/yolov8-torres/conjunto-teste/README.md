@@ -1,4 +1,9 @@
-# Conjunto de Teste
-***
+# Amostras para avaliação
 
-Este diretório contém três principais subdiretórios: ```imagens```, ```videos``` e  ```rastreamento```. Cada um desse subdiretórios contém amostras de imagens e vídeos de torres de transmissão em diferentes formatos e cenários possíveis, para que os modelos treinados possam ser testados com uma maior generabilidade possível de cenários de aplicação. Os vídeos na pasta ```rastreamento``` são úteis para verificar o comportamento dos algoritmos de rastreio. Nele, há diversos vídeos de simulação de torres de transmissão, na qual é possível testar diferentes condições de análise.
+Este diretório organiza as amostras locais usadas para inspecionar o comportamento dos modelos:
+
+- `imagens/`: cenas estáticas de torres de transmissão.
+- `videos/`: sequências para avaliar detecção em movimento.
+- `rastreamento/`: vídeos usados para observar a continuidade das identificações entre quadros.
+
+Procure variar perspectiva, distância, iluminação e contexto visual. Os arquivos de teste são mantidos fora do Git; os diretórios podem precisar ser criados localmente antes da avaliação.

@@ -1,9 +1,10 @@
-# Organização dos Dados
-***
+# Análise e organização dos dados
 
-Neste diretório, há diversos subdiretórios utilizados para realizar a seleção, organização e tratamento dos dados, sendo eles:
+Esta etapa prepara as imagens para os experimentos de detecção e segmentação. Os diretórios estão organizados pelo tipo de atividade:
 
-* ```analise-datasets```: este subdiretório contém arquivos ```.ipynb``` utilizados para analisar como cada um dos conjuntos de torres de referência estão organizados.
-* ```datasets-compactados```: este subdiretório contém os arquivos ```.zip``` contendo os dados originais dos conjuntos de imagens, junto com scripts úteis para descompactação de dados.
-* ```datasets-descompactados```: este subdiretório contém todos os conjuntos de imagens descompatados, sendo o diretório de destino para o trabalho realizado dentro da pasta  ```datasets-compactados```.
-* ```refinamento-datasets```: este subdiretório contém o tratamento realizado em alguns conjuntos de imagens que possuem imagens que não contém torres em seus conjuntos originais, na qual apenas imagens com torres de transmissão foram selecionadas. 
+- [`analise-datasets/`](analise-datasets/): notebooks que inspecionam a estrutura e as anotações das bases de referência.
+- [`datasets-compactados/`](datasets-compactados/): instruções, fontes e utilitário para descompactar arquivos locais.
+- [`datasets-descompactados/`](datasets-descompactados/): destino recomendado para os conjuntos extraídos.
+- [`refinamento-datasets/`](refinamento-datasets/): seleção e preparação de imagens para compor conjuntos experimentais.
+
+As bases originais não são armazenadas integralmente neste repositório. Consulte as fontes listadas na análise e respeite as condições de uso de cada conjunto.

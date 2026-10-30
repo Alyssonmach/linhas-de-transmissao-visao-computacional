@@ -1,15 +1,38 @@
-# ESFERAS CEMIG - Algoritmos de Visão Computacional
-***
+# Análise de Linhas de Transmissão com Visão Computacional
 
-### Algoritmo de Detecção das Torres de Transmissão
-***
+Estudo exploratório sobre como técnicas de visão computacional podem apoiar a análise de estruturas de transmissão de energia a partir de imagens e vídeos.
 
-A presente atividade de desenvolvimento na área de visão computacional aborda o desenvolvimento de um algoritmo com o objetivo primordial de detectar torres de transmissão por meio de técnicas de inteligência artificial. Esta etapa inicial de desenvolvimento é fundamental para estabelecer as bases do projeto, permitindo a identificação precisa das estruturas das torres. Como parte de um escopo mais amplo, planeja-se a expansão deste algoritmo para abranger não apenas a detecção de torres, mas também a identificação de linhas e componentes intrínsecos ao sistema de transmissão elétrico. A integração dessas capacidades possibilitará a futura autonomia de drones no processo de instalação de esferas sinalizadoras, marcando um avanço significativo na eficiência e segurança de determinadas operações na área de sistemas elétricos.
+O repositório reúne experimentos com detecção, segmentação e rastreamento de torres, além de etapas de análise e organização de conjuntos de imagens. A investigação observa como a composição dos dados, as transformações aplicadas às imagens e as condições de captura influenciam o comportamento dos modelos.
 
-Para aqueles que não estão familiarizados com o campo da visão computacional, é crucial compreender a razão por trás da criação de um conjunto de imagens dedicado ao treinamento de algoritmos de detecção. Assim como um músico precisa de prática constante para aprimorar suas habilidades, os algoritmos de detecção também precisam ser alimentados com exemplos variados para aprender a reconhecer padrões. A qualidade do conjunto de imagens desempenha um papel fundamental, uma vez que imagens bem selecionadas e anotadas precisamente fornecem aos algoritmos uma base sólida para desenvolver uma compreensão refinada das características que buscam identificar. Um conjunto de imagens de alta qualidade, abrangente e diversificado, permite que os algoritmos capturem a complexidade do mundo real, preparando-os para enfrentar uma ampla gama de cenários com precisão e confiabilidade.
+## Escopo da investigação
 
-O conjunto de imagens foi construído de maneira abrangente, reunindo dados de diversos conjuntos de imagens de torres, com o propósito de criar um corpus unificado, extenso e notavelmente variado. A montagem do conjunto de imagens buscou capturar uma ampla gama de situações e condições, aprimorando assim a robustez e generalização dos algoritmos a serem desenvolvidos.  Cabe destacar que, antes de serem incorporadas ao conjunto, as imagens passaram por uma fase de pré-processamento rigoroso. Esse processo visou otimizar a qualidade das imagens, corrigindo eventuais imperfeições, normalizando formatos e garantindo uma base sólida para as etapas subsequentes.
+- Analisar conjuntos públicos de imagens de torres e componentes de linhas de transmissão.
+- Organizar e refinar dados para experimentos de detecção e segmentação.
+- Comparar quatro cenários experimentais baseados em YOLOv8.
+- Explorar o rastreamento de estruturas em sequências de vídeo.
+- Inspecionar resultados em imagens e vídeos de teste.
 
-Os algoritmos de detecção de torres são baseados em inteligência artificial, os quais utilizam conjuntos de imagens para aprender a reconhecer os seus padrões. Neste projeto, os algoritmos utilizados foram baseados na arquitetura de rede neural convolucional YOLO na sua oitava versão (YOLOv8). A arquitetura YOLO (You Only Look Once) é um modelo de detecção de objetos em tempo real que realiza detecções e localizações em uma única passagem das imagens pela rede, dividindo a imagem em grades e prevendo caixas delimitadoras e classes para objetos detectados. Isso a torna eficiente e rápida para tarefas de detecção de objetos.
+## Organização do repositório
 
+| Caminho | Conteúdo |
+| --- | --- |
+| [`deteccao-segmentacao-torres/organizacao-dados/`](deteccao-segmentacao-torres/organizacao-dados/) | Análise de bases, aquisição, descompactação e refinamento dos dados. |
+| [`deteccao-segmentacao-torres/yolov8-torres/deteccao-segmentacao/`](deteccao-segmentacao-torres/yolov8-torres/deteccao-segmentacao/) | Notebooks e registros dos quatro cenários de treinamento. |
+| [`deteccao-segmentacao-torres/yolov8-torres/rastreamento/`](deteccao-segmentacao-torres/yolov8-torres/rastreamento/) | Experimentos de rastreamento com BoT-SORT, ByteTrack e DeepSORT. |
+| [`deteccao-segmentacao-torres/yolov8-torres/conjunto-teste/`](deteccao-segmentacao-torres/yolov8-torres/conjunto-teste/) | Orientações sobre amostras de imagens e vídeos usados na avaliação. |
+| [`deteccao-segmentacao-torres/yolov8-torres/inferencia.py`](deteccao-segmentacao-torres/yolov8-torres/inferencia.py) | Script para configurar inferência em imagem ou vídeo com um modelo treinado. |
 
+## Percurso sugerido
+
+1. Consulte a [análise dos conjuntos de imagens](deteccao-segmentacao-torres/organizacao-dados/analise-datasets/README.md) e as fontes dos dados.
+2. Leia como os dados são [organizados e refinados](deteccao-segmentacao-torres/organizacao-dados/README.md).
+3. Compare os [cenários experimentais](deteccao-segmentacao-torres/yolov8-torres/deteccao-segmentacao/README.md) e seus registros.
+4. Explore os experimentos de [rastreamento](deteccao-segmentacao-torres/yolov8-torres/rastreamento/README.md) e as orientações para os dados de teste.
+
+## Dados e execução
+
+Os conjuntos de imagens originais, vídeos, pesos treinados e outros arquivos volumosos não são versionados integralmente. Consulte os READMEs de cada etapa para encontrar as fontes e instruções; as regras de exclusão estão em [`.gitignore`](.gitignore).
+
+Os experimentos estão registrados em notebooks e scripts, mas o repositório não define um ambiente único de execução. Dependências, credenciais de serviços de dados e recursos de GPU podem variar entre os cadernos. Antes de executar um experimento, confira suas células de configuração e os caminhos de entrada.
+
+Os notebooks que baixam conjuntos pelo Roboflow leem a credencial da variável de ambiente `ROBOFLOW_API_KEY`. Configure-a localmente antes da execução; não inclua chaves no código ou no histórico do repositório.

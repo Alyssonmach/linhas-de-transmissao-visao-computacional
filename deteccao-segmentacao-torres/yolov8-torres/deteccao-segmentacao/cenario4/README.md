@@ -1,6 +1,5 @@
-# Cenário de Desenvolvimento 4
-***
+# Cenário 4 — versão 5 do conjunto
 
-O quarto conjunto de imagens é uma estratégia em que foi feita a remoção das aplicações de aumento de dados para fins de comparação com os demais cenários. As imagens neste conjunto também foram normalizadas para 960x960 pixels. 
+Este experimento usa a versão 5 do projeto `towers-instance-segmentation-v2` e normaliza as imagens para 960 × 960 pixels. O registro qualitativo descreve a preparação do conjunto como uma comparação sem aumento de dados. No entanto, o notebook define `augment=True` durante o treinamento, além de `pretrained=True` e `dropout=0.15`; portanto, não é uma configuração sem aumento de dados em todas as etapas. O limite configurado é de 150 épocas.
 
-O quarto cenário, no qual todo o aumento de dados foi removido, obteve um desempenho aceitável em algumas situações, embora não tenha superado o terceiro cenário. Em testes adicionais com vídeos, o modelo apresentou uma taxa maior de falsos positivos, indicando que o aumento de dados realizado no terceiro cenário desempenhou um papel crucial na resolução desse problema específico. Além disso, os resultados analisados em diversos vídeos demostraram um sobreajuste do modelo aos dados de treinamento, mas uma dificuldade maior de fazer inferências em outros cenários de testagem.
+As observações registradas apontam desempenho aceitável em algumas situações, mais falsos positivos em vídeos e sinais de sobreajuste aos dados de treinamento. Consulte o notebook e confirme a configuração da versão 5 do conjunto antes de interpretar a comparação.

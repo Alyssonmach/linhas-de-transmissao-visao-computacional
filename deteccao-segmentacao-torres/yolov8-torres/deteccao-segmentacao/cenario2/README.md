@@ -1,6 +1,5 @@
-# Cenário de Desenvolvimento 2
-***
+# Cenário 2 — seleção de estruturas e imagens próximas
 
-O segundo conjunto de imagens contém uma correção para incluir apenas os tipos de torres mais comuns na região brasileira. Para compensar a remoção de imagens, foram adicionadas mais imagens com cenários mais próximos das torres, contribuindo para a diversidade das imagens. O aumento de dados e a normalização (960x960 pixels) das imagens neste conjunto foram semelhantes ao trabalho feito no segundo conjunto de imagens.
+Este experimento usa a versão 3 do projeto `towers-instance-segmentation-v2` e restringe o conjunto a tipos de torre mais comuns no contexto brasileiro. Para compensar a seleção, foram incluídas mais imagens capturadas de perto. O conjunto foi normalizado para 960 × 960 pixels; no treinamento, `augment=False` e o limite configurado é de 150 épocas.
 
-No segundo cenário, após limpar o conjunto de dados para incluir apenas imagens de torres no padrão brasileiro e aumentar a quantidade de imagens capturadas a uma curta distância das torres, os resultados melhoraram significativamente. Esta abordagem resolveu a questão dos falsos positivos persistentes, resultando em detecções mais precisas.
+As anotações do experimento relatam menos falsos positivos após a seleção dos dados e a inclusão de vistas próximas. Essa observação é qualitativa; consulte o notebook para as configurações e amostras avaliadas.

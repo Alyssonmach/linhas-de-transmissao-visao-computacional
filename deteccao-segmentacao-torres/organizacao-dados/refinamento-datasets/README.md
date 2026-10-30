@@ -1,6 +1,5 @@
-# Organização de um Conjunto de Imagens Robusto
-***
+# Refinamento dos conjuntos de imagens
 
-Esse diretório é reservado para salvar imagens provenientes de diversos conjuntos de imagens que possuem imagens com torres, dentre os quais também contemplam outras imagens que não possuem torres vistas pela câmera, a partir desses dados diversas imagens foram selecionadas para compor um conjunto de imagens robusto para treinamento contendo a classe em questão.
+Os notebooks deste diretório selecionam e reorganizam imagens de diferentes fontes para formar conjuntos adequados aos experimentos. Uma das frentes filtra imagens sem torres; outra prepara exemplos de linhas de transmissão para investigação futura.
 
-Além disso, é feito a seleção de linhas de transmissão para o desenvolvimento dos algoritmos de identificação desse tipo de objeto.
+O refinamento altera a composição dos dados e, portanto, deve ser considerado ao interpretar os resultados. Consulte cada notebook para conhecer os critérios de seleção, os caminhos esperados e os arquivos produzidos.

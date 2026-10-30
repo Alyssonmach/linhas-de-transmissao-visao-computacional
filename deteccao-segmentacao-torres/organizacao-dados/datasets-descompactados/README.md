@@ -1,4 +1,5 @@
-# Diretório com os Conjuntos de Imagens Descompactados
-***
+# Conjuntos extraídos
 
-Esse diretório é reservado para os conjuntos de imagens descompactados, conforme foi realizada a instrução no diretório ```pastas-compactadas```. Siga a instrução de organização dos dados a partir do documento de ```README.md``` contido em cada um dos subdiretórios.
+Use este diretório como destino para as bases extraídas. Mantenha cada conjunto em uma pasta própria e consulte o README ou a documentação de origem para preservar a estrutura esperada de imagens e anotações.
+
+Os arquivos de dados são ignorados pelo Git; este README registra apenas a finalidade do diretório.

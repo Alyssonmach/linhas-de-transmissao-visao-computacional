@@ -1,6 +1,5 @@
-# Cenário de Desenvolvimento 3
-***
+# Cenário 3 — aumento de dados intensivo
 
-O quarto conjunto de imagens possuem as mesmas correções feitas no terceiro cenário, mas com um aumento de dados mais substancial, envolvendo uma série de transformações geométricas e filtragens nas imagens. As imagens neste conjunto também foram normalizadas para 960x960 pixels.
+Este experimento usa a versão 4 do projeto `towers-instance-segmentation-v2`. A preparação do conjunto amplia as transformações geométricas e filtragens em relação ao cenário anterior. As imagens foram normalizadas para 960 × 960 pixels; o notebook define `augment=False` no treinamento porque as transformações foram aplicadas durante a preparação dos dados. O limite configurado é de 150 épocas.
 
-No quarto cenário, que explorou um aumento de dados mais intenso com transformações geométricas e filtragens, o desempenho não superou os cenários dois e três. Isso ocorreu devido à quantidade excessiva de aumento de dados, que possivelmente prejudicou a representação das informações nas imagens, dificultando o aprendizado do algoritmo. No entanto, em cenários de detecção mais simples, onde as torres são bem destacadas na imagem, o modelo obteve resultados satisfatórios.
+O registro disponível indica que a estratégia mais intensa não trouxe melhora consistente e pode ter prejudicado a representação visual útil ao modelo. Em imagens com torres bem destacadas, as detecções foram descritas como satisfatórias. Consulte o notebook antes de comparar este cenário com os demais.
